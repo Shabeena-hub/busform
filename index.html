@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <p align="center">
+        <img src="./tsrtc.jpg" width="90px">
+        </p>
+
+        <h2  style = "color:blue"; align ="center"> TELANGANA STATE BOARD TRANSPORT CORPORATION</h2>
+        <h3  align ="center"> GENERAL BUSPASS APPLICATION</h3>
+
+         <fieldset>
+            <legend style ="color:rgb(165, 42, 42)";><b> Application details</b> </legend>
+            
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for ="name"> Application name:</label>
+                            <input type ="text" id ="name" name="Application name">
+                        </td>
+                        <td>
+                            <label for ="Father name">Father name:</label>
+                            <input type ="text" id ="Father" name="Father name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob ">Date of Birth:</label>
+                            <input type="date" id ="dob" name="dob" required>
+                        </td>
+                        <td>
+                            <label for ="gender">gender:</label>
+                            <input type ="radio" id ="male" name="gender" value="male" required>
+                            <label for ="male">male</label>
+                            <input type="radio" id ="female" name="gender" value="female" required>
+                            <label for ="female">female</label>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Age">Age as on:</label>
+                            <input type="age" id="Age" name ="Age" required>
+                        </td>
+                        <td>
+                            <label for="Adhar">Adhar number:</label>
+                        <input type="text" id="Adhar" name="Adhar" pattern="\d{12}" required>                       </td>
+                    </td>
+                    </tr>
+                    <tr>
+                <td>
+                    <label for="pnumber">Whatsapp Number:</label>
+                    <input type="text" id="pnumber" name="Whatsapp Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="photo">photo:</label>
+                    <input type="file" id="photo" name="photo">
+                </td>
+                <td>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="email">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend style ="color:rgb(165, 42, 42)";><b>Residential details</b></legend>
+        <table width="100%">
+            <tr>
+                <td>
+                    <label for="adders">Applicant Address:</label>
+                    <input type="text" id="adders" name="Applicant Address">
+                </td>
+                <td>
+                    <label for="name">District:</label>
+                    <input type="text" id="name" name="District">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Mandal:</label>
+                    <input type="text" id="name" name="Mandal">
+                </td>
+                <td>
+                    <label for="name">Village:</label>
+                    <input type="text" id="name" name="Village">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">Pincode:</label>
+                    <input type="text" id="number" name="Pincode">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend style ="color:rgb(165, 42, 42)";><b>Pass Type Details:</b></legend>
+        <table width="100%">
+            <tr>
+                <td>
+                    <label for="name">City:</label>
+                    <input type="text" id="name" name="City">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="type">Pass type: </label>
+                    <input type="text" id="type" name="Pass type">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend style ="color:rgb(165, 42, 77)";><b>Mode of Payment</b></legend>
+        <table width="100%">
+            <tr>
+                <td>
+                    <label for="mood">Payment Mode:</label>
+                    <input type="text" id="mood" name="Payment Mode">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mode">Pass delivery mode:</label>
+                    <input type="text" id="mode" name="Pass delivery mode">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="collect">center where you want to collect the pass</label>
+                    <input type="type" id="collect" name="center where you want to collect the pass">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+        <p align="center">
+            <label for="code">Enter the captcha:<img src="./captcha" width="70"</label>
+            <input type="text" id="code" name="Enter the captcha:">
+        </p>
+    </fieldset>
+    <br>
+
+    <center>
+        <input type="Submit">
+    </center>
+   
+
+                </tbody>
+
+            </table>
+        </fieldset>
+      
+
+    </form>
+    
+
+
+        </tr>
+    </table>
+        
+    
+
+</body>
+</html>
